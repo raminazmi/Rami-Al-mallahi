@@ -1058,7 +1058,16 @@ img {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .skills__content {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
 @media screen and (max-width: 776px) {
+    .skills__content {
+        grid-template-columns: repeat(1, 100%);
+    }
     .container {
         display: grid;
         justify-content: center;
