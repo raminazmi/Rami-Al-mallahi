@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --yellow: #FFC500;
+    --Purple: #280033;
+    --Pink: #FA005A;
+    --White: #FFFFFF;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: grid;
+    place-items: start center;
+    height: 100%;
+    width: 50px;
+    background: var(--yellow);
+    padding: 15px 10px;
+    z-index: 99;
+}
+
+.sidebar ul li {
+    position: relative;
+    list-style: none;
+    margin: 15px 0 0;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar ul li .tooltip {
+    position: absolute;
+    right: 60px;
+    top: -20px;
+    border-radius: 6px;
+    height: 35px;
+    width: 120px;
+    background: var(--White);
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px #00000033;
+    opacity: 0;
+}
+
+.sidebar ul li:hover .tooltip {
+    transition: all 0.5s ease;
+    opacity: 1;
+    top: 0%
+}
+
+.sidebar ul li i {
+    font-size: 35px;
+}
+
+.logo_content .logo img,
+a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.sidebar .Label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home_content {
+    width: 100%;
+}
+
+.Header .Character {
+    background-image: url('../IMG/Component.jpg');
+    background-size: cover;
+    height: 650px;
+}
+
+.Character_Label p {
+    text-align: center;
+    color: var(--yellow);
+    font-size: 100px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.Character_Search {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.Character_Search .Search {
+    position: relative;
+    place-items: center;
+    background-color: var(--Purple);
+    width: 600px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+
+.Character_Search .Search i,
+.Character_Search .Search input {
+    position: absolute;
+    top: 25%;
+    right: 2.5%;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--White);
+}
+
+.Character_Search .Search input {
+    color: var(--yellow);
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    top: 10%;
+    width: 88%;
+    padding-right: 7.5%;
+}
+
+::placeholder {
+    color: var(--yellow);
+    font-size: 25px;
+}
+
+.Character_Rect {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px 0 100px;
+}
+
+.Character_Rect .Rect {
+    width: 250px;
+    height: 300px;
+    background-color: var(--Purple);
+    margin-top: 20px;
+}
+
+.Character_Rect .One img {
+    position: relative;
+    width: 170px;
+    top: -70px;
+    right: 20px;
+}
+
+.Character_Rect .Tow img {
+    position: relative;
+    top: -40px;
+    width: 150px;
+    height: 330px;
+    right: 50px;
+}
+
+.Character_Rect .Three img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    top: -50px;
+    left: 40px;
+}
+
+.Character_Rect .Four img {
+    position: relative;
+    width: 350px;
+    height: 370px;
+    top: -80px;
+    left: 30px;
+}
+
+.Character_Rect .One h3,
+.Character_Rect .Tow h3,
+.Character_Rect .Three h3,
+.Character_Rect .Four h3 {
+    width: 50px;
+    height: 25px;
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+.section_1 {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to left, var(--Purple), #6f547698);
+}
+
+.section_2 {
+    width: 100%;
+    height: 150px;
+    padding: 30px 0 0;
+    background-color: var(--Purple);
+}
+
+.section_2_1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 160px;
+}
+
+.section_2 .sec {
+    width: 120px;
+}
+
+.section_2 .Line {
+    width: 1px;
+    height: 110px;
+    background-color: var(--White);
+}
+
+.section_2 .sec div {
+    background-color: var(--yellow);
+    margin-top: 40px;
+    font-weight: bold;
+    width: 30px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.section_2 .sec .Trend {
+    width: 60px;
+    padding: 7px;
+    border-radius: 0;
+}
+
+.section_2 .sec div i {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.section_2 .sec h1 {
+    color: var(--yellow);
+    margin-bottom: 10px;
+}
+
+.section_2 .sec p {
+    font-size: 30px;
+    color: var(--Purple);
+}
+
+.section_2 .sec h4 {
+    color: var(--White);
+}
+
+.section_3 {
+    width: 100%;
+    height: 15px;
+    background-color: var(--Pink);
+}
+
+.section_3 .leader {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: var(--Pink);
+    text-align: center;
+    margin-right: 200px;
+    font-size: 50px;
+    padding: 20px 0 10px;
+    color: var(--White);
+}
+
+.section_3 .leader .span_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--Purple);
+    width: 150px;
+    height: 15px;
+}
+
+.section_3 .leader .span_2 {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    color: black;
+    width: 200px;
+    font-weight: lighter;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section_4 p {
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section_5 .Character_square {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px 0 100px;
+}
+
+.section_5 .square {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: var(--Purple);
+    margin-top: 20px;
+}
+
+.section_5 .square div {
+    position: absolute;
+    top: 150px;
+    width: 150px;
+    height: 3px;
+    background-color: var(--Pink);
+    text-align: center;
+}
+
+.Character_square .One img {
+    position: relative;
+    width: 150px;
+    top: -12px;
+    left: 0px;
+}
+
+.Character_square .Tow img {
+    position: relative;
+    top: -91px;
+    width: 100px;
+    height: 330px;
+    right: 30px;
+}
+
+.Character_square .Three img {
+    position: relative;
+    width: 220px;
+    height: 350px;
+    top: -115px;
+    left: 25px;
+}
+
+.Character_square .Four img,
+.Character_square .Five img,
+.Character_square .Six img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+}
+
+.Section_6 .Character_Name {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px 0 100px;
+}
+
+.Section_6 .Name {
+    position: relative;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section_7 .Character_Search {
+    padding-top: 20px;
+    margin-right: 100px;
+}
+
+.section_7 {
+    background-color: var(--Pink);
+    width: 100%;
+    height: 90px;
+}
+
+.Char_img {
+    position: relative;
+    background-image: url('../IMG/Battle_of_Plataea_greatest_battle_ancient.svg');
+    background-size: cover;
+    height: 650px;
+}
+
+.Char_Color {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(to left, #BF014C, #600126);
+    opacity: 90%;
+}
+
+.Android {
+    position: raelative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mobile_Pic {
+    position: absolute;
+    top: 5%;
+    right: 60%;
+}
+
+.Download {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    text-align: center;
+    width: 450px;
+}
+
+.Download p {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.Download h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--White);
+}
+
+.Download h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--White);
+    background-color: var(--yellow);
+    width: 150px;
+    padding: 25px 0;
+    margin-right: 33%;
+    cursor: pointer;
+}
+
+.section_8 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #290022;
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.section_8 .sec {
+    text-align: center;
+}
+
+.section_8 .one {
+    margin-top: 50px;
+}
+
+.section_8 h1 {
+    color: var(--yellow);
+    font-size: 35px;
+}
+
+.section_8 h4 {
+    color: var(--White);
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 170px;
+}
+
+.section_9 {
+    text-align: center;
+    background-color: #b169a5;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(to top, #000, #545454);
+    color: var(--White);
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section_10 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.section_10 .Character {
+    position: relative;
+    margin-bottom: 280px;
+}
+
+.section_10 .Character .Character_Color {
+    position: relative;
+    background-color: var(--Purple);
+    width: 400px;
+    height: 300px;
+}
+
+.section_10 .Character .Character_img {
+    position: absolute;
+    right: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.section_10 .Character h3 {
+    position: absolute;
+    top: 260px;
+    left: 140px;
+    width: 100px;
+    height: 20px;
+    background-color: var(--Pink);
+    color: var(--White);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.Character .Character_Text {
+    position: absolute;
+    top: 300px;
+    right: -35px;
+    background-color: var(--yellow);
+    width: 400px;
+    padding: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--Purple);
+    text-align: center;
+    font-size: 26px;
+}
