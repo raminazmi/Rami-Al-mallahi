@@ -10,8 +10,9 @@
 
 .discover__card {
     position: relative;
-    height: 350px !important;
     overflow: var(--img-hidden);
+    box-shadow: 0 3px 10px hsla(var(--hue), var(--sat), var(--lig), .25);
+
 }
 
 .discover__data {
@@ -392,7 +393,10 @@ body.dark-theme {
     background-color: var(--body-color);
     color: #fff;
 }
+.dark-theme .discover__card{
+    box-shadow: 0 4px 20px hsla(var(--hue), var(--sat), var(--lig), .25);
 
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
@@ -588,7 +592,7 @@ body.dark-theme {
     margin: 2rem 0.5rem 0rem;
     border-radius: 5px;
     background-color: #fff;
-    box-shadow: 0px 5px 15px #764ef936;
+    box-shadow: 0 3px 5px hsla(var(--hue), var(--sat), var(--lig), .25);
     padding: 1rem;
     cursor: pointer;
 }
