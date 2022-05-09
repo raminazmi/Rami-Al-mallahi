@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>موقع وجهتك</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">وجهتك</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">الصفحة الرئيسية</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">عنا</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">إكتشف</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">الأماكن</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">الوضع المظلم</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/ksa-hero-ar2x-desktop_2.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">يمكنك العثور على أجمل الأماكن وأكثرها روعة بأفضل الأسعار  ،<br> اختر المكان الذي سنرشدك إليه طوال فترة الانتظار  .</span>
+                    <h1 class="home__data-title">اكتشف الآن</h1>
+                    <a href="#" class="button">استكشف</a>
+
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">أفضل 5 أماكن للزيارة</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                                تعرف أكثر <i class="ri-arrow-left-line"></i>
+                            </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="assets/img/skyscrapers-palm-trees-dubai-uae.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">معك لحجز رحلتك<br> اختر من بين 450 خطوط طيران حول العالم! </h2>
+                    <p class="about__description">يمكنك العثور على أجمل الأماكن وأكثرها روعة بأفضل الأسعار مع خصومات خاصة ، اختر المكان الذي سنرشدك إليه طوال فترة الانتظار ، احصل على مكانك الآن.
+                    </p>
+                    <a href="#" class="button">حجز مكان</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/manama-cityguide-580x3602x.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="assets/img/view-dubai-marina-sunrise-uae.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">اكتشف معظم <br>الأماكن الجذابة</h2>
+
+            <div class="discover__container  swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/cairo580x3601x.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">القاهرة</h2>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/dubai-desktop-580x360.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">دبي</h2>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/manama-cityguide-580x3602x.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">البحرين</h2>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/meccah580x3601x.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">مكة المكرمة</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">اشترك لدينا<br> ليصلك كل جديد</h2>
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="ادخل الايميل" class="subscribe__input">
+
+                        <button class="button">
+اشتراك                            </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SPONSORS ====================-->
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; كل الحقوق محفوظة 2022</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">الشروط والاتفاقيات</a>
+                    <a href="#" class="footer__terms-link">سياسات الخصوصية</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
