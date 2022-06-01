@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/suitcase.png" type="image/x-icon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== FONTAWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--=============== BOOTSTRAP ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <!--=============== CSS ===============-->
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/popular events">
+    <link rel="stylesheet" href="assets/css/mainPage.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/popular landmarks">
+    <link rel="stylesheet" href="assets/css/CountryPage.css">
+    <title>دولة</title>
+</head>
+
+<body>
+    <!--=========================== Header ===========================-->
+    <header class="header">
+        <div class="SearchIcon"><img src="assets/img/magnifier.png" alt="searchIcon"></div>
+        <img src="assets/img/logo-white.svg" alt="logo1" class="logo1" />
+        <img src="assets/img/logo white.svg" alt="logo2" class="logo2" />
+        <div class="navbar">
+            <div class="menu">
+                <div class="nav-header">
+                    <a class="navbar-link" href="#">
+                        <div><i class="fa-solid fa-user"></i>تسجيل الدخول</div>
+                    </a>
+                </div>
+                <div class="search">
+                    <input class="search-input" type="search" placeholder="ابحث عن وجهتك">
+                    <div class="search_icon"><img src="assets/img/magnifier.png" alt="searchIcon"></i>
+                    </div>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a class="navbar-link" href="#"><img src="assets/img/home.svg"></img>الرئيسية</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="#"><img src="assets/img/333.svg"></img>وجهات</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="#"><img src="assets/img/man.svg"></img>الفعاليات</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="#"><img src="assets/img/election-event-on-a-calendar-with-star-symbol.svg"></img>مقالات</a>
+                    </li>
+                    <li>
+                        <a class="login_button" href="#"><img src="assets/img/newsletter.svg"></img>دخول</a>
+                    </li>
+                    <li>
+                        <button class="custom_button">
+                            <a class="" href="#">
+                            <span>تسجيل الدخول</span>
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <p class="tejwal-rights">منصة تجوال | جميع الحقوق محفوظة</p>
+        </div>
+        <button type="button" class="mobile-navbar-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+        <div class="shadow_color" id="full_Screen" onclick=""></div>
+    </header>
+    <!--=========================== breadcrumb ===========================-->
+    <section class="breadcrumb-size">
+        <div class="main_container">
+            <nav style="--breadcrumb-divider: quote('>');" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#"><img src="assets/img/home1.svg"></a>
+                    </li>
+                    <li class="breadcrumb-item " aria-current="page">الوجهات</li>
+                    <li class="breadcrumb-item " aria-current="page">الدولة</li>
+                    <li class="breadcrumb-item active" aria-current="page">قطر</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!--=========================== Img-cover ===========================-->
+    <section class="Img-cover">
+        <div class="main_container">
+            <div class="CoverImage FlexEmbed Flex-Embed" style="background-image:url(assets/img/cover.svg)">
+                <div class="content">
+                    <h2>استكشف قطر</h2>
+                    <p>دوله في قاره اسيا على تقع على ساحل البحر المتوسط</p>
+                </div>
+                <div class="reports">
+                    <div class="statistical">
+                        <div class="flex">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <div>العاصمة</div>
+                            <div>الدوحة</div>
+                        </div>
+                        <div class="flex">
+                            <i class="ri-global-line"></i>
+                            <div>اللغة</div>
+                            <div>العربية</div>
+                        </div>
+                        <div class="flex">
+                            <i class="ri-money-dollar-circle-fill"></i>
+                            <div>العملات</div>
+                            <div> القطري الريال</div>
+                        </div>
+                        <div class="spacer"></div>
+                        <div class="communication">
+                            <div class="">100<br>الاسعاف</div>
+                            <div class="">101<br>الشرطة</div>
+                            <div class="">100<br>الإطفاء</div>
+                        </div>
+                    </div>
+                    <div class="temp">
+                        <div class="status">
+                            <img src="assets/img/sun (1).svg" alt="">
+                            <h6>غائم جزئيا</h6>
+                        </div>
+                        <div class="" dir="ltr">
+                            <div class="clock">
+                                <h6> 12:32 am</h6>
+                                <i class="ri-time-line" dir="rtl"></i>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="temp_detail">
+                                <h3>12</h3>
+                                <h3>23</h3>
+                                <h3> 24 <i class="ri-celsius-fill"></i> </img>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile">
+            <div class="reports">
+                <div class="statistical">
+                    <button class="custom_button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">تعرف على دولة قطر</button>
+                    <div class="flex">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <div>العاصمة</div>
+                        <div>الدوحة</div>
+                    </div>
+                    <div class="flex">
+                        <i class="ri-global-line"></i>
+                        <div>اللغة</div>
+                        <div>العربية</div>
+                    </div>
+                    <div class="flex">
+                        <i class="ri-money-dollar-circle-fill"></i>
+                        <div>العملات</div>
+                        <div> القطري الريال</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="communication">
+                        <div class="">100<br>الاسعاف</div>
+                        <div class="">101<br>الشرطة</div>
+                        <div class="">100<br>الإطفاء</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="offcanvas offcanvas-center" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p class="">هي دولة عربية تقع في شرق شبه الجزيرة العربية في جنوب غرب آسيا مطلّة على الخليج العربي وعاصمتها الدوحة. لها حدود برية مشتركة من الجنوب مع المملكة العربية السعودية وبحرية مع دولة الإمارات العربية المتحدة، مملكة البحرين. وفي أعقاب الحكم العثماني،
+                أصبحت قطر محمية بريطانية في أوائل القرن العشرين حتى حصولها على الاستقلال في عام 1971 م. وقد حكمت قطر أسرة آل ثاني منذ منتصف القرن التاسع عشر بعد فترة قصيرة من قدومها من محافظة أشيقر في نجد. نظام الحكم في قطر إمارة وراثية دستورية، وحاكم
+                الدولة هو الأمير تميم بن حمد بن خليفة آل ثاني. وافق الشعب على الدستور بأغلبية ساحقة في استفتاء دستوري، بنسبة 98٪ تقريباً لصالح . وكان مجموع السكان في قطر في عام 2013 م، 1.8 مليون نسمة: يبلغ عدد المواطنين القطريين الأصليين 300،000 والأجانب
+                1.5 مليون. تعد دولة قطر هي المجتمع محافظة بعد المملكة العربية السعودية في دول مجلس التعاون الخليجي.
+            </p>
+        </div>
+    </div>
+    <!--=========================== Map section ===========================-->
+    <section class="Map-section">
+        <div class="Map">
+            <div class="main_container">
+                <div class="map_con">
+                    <div id="map"></div>
+                    <p class="description">هي دولة عربية تقع في شرق شبه الجزيرة العربية في جنوب غرب آسيا مطلّة على الخليج العربي وعاصمتها الدوحة. لها حدود برية مشتركة من الجنوب مع المملكة العربية السعودية وبحرية مع دولة الإمارات العربية المتحدة، مملكة البحرين. وفي أعقاب الحكم
+                        العثماني، أصبحت قطر محمية بريطانية في أوائل القرن العشرين حتى حصولها على الاستقلال في عام 1971 م. وقد حكمت قطر أسرة آل ثاني منذ منتصف القرن التاسع عشر بعد فترة قصيرة من قدومها من محافظة أشيقر في نجد. نظام الحكم في قطر إمارة وراثية
+                        دستورية، وحاكم الدولة هو الأمير تميم بن حمد بن خليفة آل ثاني. وافق الشعب على الدستور بأغلبية ساحقة في استفتاء دستوري، بنسبة 98٪ تقريباً لصالح . وكان مجموع السكان في قطر في عام 2013 م، 1.8 مليون نسمة: يبلغ عدد المواطنين القطريين
+                        الأصليين 300،000 والأجانب 1.5 مليون. تعد دولة قطر هي المجتمع محافظة بعد المملكة العربية السعودية في دول مجلس التعاون الخليجي.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================== Destinations ===========================-->
+    <section class="main_container landmarks Destinations content-float">
+        <p class="section_title"><span class=""></span>المدن المشهورة في قطر</p>
+        <div class="swiper mySwiper-landmarks">
+            <div class="arrows">
+                <i class="ri-arrow-right-s-line arrow_swipe_right"></i>
+                <i class="ri-arrow-left-s-line arrow_swipe_left"></i>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <a href="">
+                            <img src="assets/img/3b8c4758-b973-46fb-a0d5-aff084902aaa_sm.svg" class="card__image" alt="" />
+                            <div class="status">ساحلي</div>
+                            <div class="temperature">
+                                <img src="assets/img/sun (1).svg"></img>
+                                <h6>36 C
+                                    <h6>
+                            </div>
+                            <h2 class="city_name">واشنطن</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <a href="">
+                            <img src="assets/img/dubai-desktop-580x360.jpg" class="card__image" alt="" />
+                            <div class="status">ساحلي</div>
+                            <div class="temperature">
+                                <i class="fas fa-cloud"></i>
+                                <h6>36 C
+                                    <h6>
+                            </div>
+                            <h2 class="city_name">دبي</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/ksa-hero-ar2x-desktop_2.jpg" class="card__image" alt="" />
+                            <div class="status">ساحلي</div>
+                            <div class="temperature">
+                                <img src="assets/img/sun (1).svg"></img>
+                                <h6>36 C
+                                    <h6>
+                            </div>
+                            <h2 class="city_name">إسطبنول</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/cairo580x3601x.jpg" class="card__image" alt="" />
+                            <div class="status">ساحلي</div>
+                            <div class="temperature">
+                                <img src="assets/img/sun (1).svg"></img>
+                                <h6>36 C
+                                    <h6>
+                            </div>
+                            <h2 class="city_name">أبو ظبي</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/manama-cityguide-580x3602x.jpg" class="card__image" alt="" />
+                            <div class="status">ساحلي</div>
+                            <div class="temperature">
+                                <img src="assets/img/sun (1).svg"></img>
+                                <h6>36 C
+                                    <h6>
+                            </div>
+                            <h2 class="city_name">مكة</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================== Popular landmarks ===========================-->
+    <section class="main_container landmarks">
+        <p class="section_title"><span class=""></span>المعالم الأكثر رواجا</p>
+        <div class="swiper mySwiper-landmarks">
+            <div class="arrows">
+                <i class="ri-arrow-right-s-line arrow_swipe_right"></i>
+                <i class="ri-arrow-left-s-line arrow_swipe_left"></i>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <img src="assets/img/large-1920px (6).jpg" class="card__image" alt="" />
+                        <div class="mark">
+                            <i class="ri-bookmark-line bookmark"></i>
+                        </div>
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <div class="card__header-text">
+                                    <h3 class="card__title">شاطئ المالديف</h3>
+                                </div>
+                                <div class="location">
+                                    <h3 class=""> القاهرة - مصر</h3>
+                                </div>
+                                <div class="starsAndExplore">
+                                    <div class="rating-group">
+                                        <label aria-label="1 star" class="rating__label" for="rating3-1"><i
+                                        class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <label aria-label="2 stars" class="rating__label" for="rating3-2"><i
+                                        class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <label aria-label="3 stars" class="rating__label" for="rating3-3"><i
+                                        class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <label aria-label="4 stars" class="rating__label" for="rating3-4"><i
+                                        class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <label aria-label="5 stars" class="rating__label" for="rating3-5"><i
+                                        class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    </div>
+                                    <div class="explore">
+                                        <button class="custom_button">
+                                    <a class="" href="#">
+                                    <span>إكتشف الآن</span>
+                                    </a>
+                                </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__description">يعتبر شاطئ من اهم الشواطئ في العالم وهو للقطر و الدوحه في العالم
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <img src="assets/img/large-1920px (12).jpg" class=" card__image " alt=" " />
+                        <div class="mark ">
+                            <i class="ri-bookmark-line bookmark "></i>
+                        </div>
+                        <div class="card__overlay ">
+                            <div class="card__header ">
+                                <div class="card__header-text">
+                                    <h3 class="card__title ">شاطئ المالديف</h3>
+                                </div>
+                                <div class="location">
+                                    <h3 class=" "> جدة - السعودية</h3>
+                                </div>
+                                <div class="starsAndExplore">
+                                    <div class="rating-group ">
+                                        <label aria-label="1 star " class="rating__label " for="rating3-1 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="2 stars " class="rating__label " for="rating3-2 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="3 stars " class="rating__label " for="rating3-3 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="4 stars " class="rating__label " for="rating3-4 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="5 stars " class="rating__label " for="rating3-5 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                    </div>
+                                    <div class="explore">
+                                        <button class="custom_button">
+                                    <a class="" href="#">
+                                    <span>إكتشف الآن</span>
+                                    </a>
+                                </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__description ">يعتبر شاطئ من اهم الشواطئ في العالم وهو للقطر و الدوحه في العالم
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve ">
+                        <img src="assets/img/large-1920px (14).jpg" class="card__image " alt=" " />
+                        <div class="mark ">
+                            <i class="ri-bookmark-line bookmark "></i>
+                        </div>
+                        <div class="card__overlay ">
+                            <div class="card__header ">
+                                <div class="card__header-text ">
+                                    <h3 class="card__title ">شاطئ المالديف</h3>
+                                </div>
+                                <div class="location ">
+                                    <h3 class=" "> مكة - السعودية</h3>
+                                </div>
+                                <div class="starsAndExplore">
+                                    <div class="rating-group ">
+                                        <label aria-label="1 star " class="rating__label " for="rating3-1 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="2 stars " class="rating__label " for="rating3-2 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="3 stars " class="rating__label " for="rating3-3 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="4 stars " class="rating__label " for="rating3-4 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="5 stars " class="rating__label " for="rating3-5 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                    </div>
+                                    <div class="explore">
+                                        <button class="custom_button">
+                                    <a class="" href="#">
+                                    <span>إكتشف الآن</span>
+                                    </a>
+                                </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__description ">يعتبر شاطئ من اهم الشواطئ في العالم وهو للقطر و الدوحه في العالم
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve ">
+                        <img src="assets/img/large-1920px (13).jpg" class="card__image " alt=" " />
+                        <div class="mark ">
+                            <i class="ri-bookmark-line bookmark "></i>
+                        </div>
+                        <div class="card__overlay ">
+                            <div class="card__header ">
+                                <div class="card__header-text ">
+                                    <h3 class="card__title ">شاطئ المالديف</h3>
+                                </div>
+                                <div class="location ">
+                                    <h3 class=" "> دبي - الإمارات</h3>
+                                </div>
+                                <div class="starsAndExplore">
+                                    <div class="rating-group ">
+                                        <label aria-label="1 star " class="rating__label " for="rating3-1 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="2 stars " class="rating__label " for="rating3-2 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="3 stars " class="rating__label " for="rating3-3 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="4 stars " class="rating__label " for="rating3-4 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="5 stars " class="rating__label " for="rating3-5 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                    </div>
+                                    <div class="explore">
+                                        <button class="custom_button">
+                                    <a class="" href="#">
+                                    <span>إكتشف الآن</span>
+                                    </a>
+                                </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__description ">يعتبر شاطئ من اهم الشواطئ في العالم وهو للقطر و الدوحه في العالم
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve ">
+                        <img src="assets/img/manama-cityguide-580x3602x.jpg " class="card__image " alt=" " />
+                        <div class="mark ">
+                            <i class="ri-bookmark-line bookmark "></i>
+                        </div>
+                        <div class="card__overlay ">
+                            <div class="card__header ">
+                                <div class="card__header-text ">
+                                    <h3 class="card__title ">شاطئ المالديف</h3>
+                                </div>
+                                <div class="location ">
+                                    <h3 class=" "> البحرين</h3>
+                                </div>
+                                <div class="starsAndExplore">
+                                    <div class="rating-group ">
+                                        <label aria-label="1 star " class="rating__label " for="rating3-1 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="2 stars " class="rating__label " for="rating3-2 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="3 stars " class="rating__label " for="rating3-3 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="4 stars " class="rating__label " for="rating3-4 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                        <label aria-label="5 stars " class="rating__label " for="rating3-5 "><i
+                                        class="rating__icon rating__icon--star fa fa-star "></i></label>
+                                    </div>
+                                    <div class="explore">
+                                        <button class="custom_button">
+                                    <a class="" href="#">
+                                    <span>إكتشف الآن</span>
+                                    </a>
+                                </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card__description ">يعتبر شاطئ من اهم الشواطئ في العالم وهو للقطر و الدوحه في العالم
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more-view">
+            <button class="main_container custom_button">عرض المزيد</button>
+        </div>
+    </section>
+    <!--===========================  Experiments ===========================-->
+    <section class="swiper events experiments">
+        <div class="main_container">
+            <p class="section_title"><span class=""></span>الأنشطه التي لابد من ممارستها عند زياره قطر</p>
+            <div class="mySwiper-experiments">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide ">
+                        <img src="assets/img/ksa-hero-ar2x-desktop_2.jpg " />
+                    </div>
+                    <div class="swiper-slide ">
+                        <img src="assets/img/large-1920.jpg " />
+                    </div>
+                    <div class="swiper-slide ">
+                        <img src="assets/img/large-1920.jpg " />
+                    </div>
+                </div>
+            </div>
+            <div class="container-float" style="background-image: url( 'assets/img/Group 419.svg');">
+                <div class="tap-bar">
+                    <a href="">
+                        <h3>الأنشطه المائيه</h3>
+                    </a>
+                    <a href="">
+                        <h3>منطقه دخان</h3>
+                    </a>
+                </div>
+                <p class="title" id="title">التسوق في مولات دبي</p>
+                <div class="paragraph">
+                    <p class="" id="paragraph">يقع أرخبيل جزر فرسان على ساحل جازان ويتميز بشواطئه البيضاء وطبيعته التي لم يغيرها الزمن. غدت الجزر ملاذا لمحبي الاستجمام والغوص على حد سواء.</p>
+                </div>
+                <div class="footer-position">
+                    <button class="custom_button ">
+                        <a class=" " href="# ">
+                            <span>إكتشف الآن</span>
+                        </a>
+                    </button>
+                    <div class="arrows">
+                        <i class="ri-arrow-right-s-line arrow_swipe_right " onClick="right()"></i>
+                        <i class=" ri-arrow-left-s-line arrow_swipe_left " onClick="Left()"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination "></div>
+        </div>
+    </section>
+    <!--=========================== Destinations ===========================-->
+    <section class="main_container landmarks Destinations ">
+        <p class="section_title"><span class=""></span>استكشف قطر بالطريقه التي تريد</p>
+        <div class="swiper mySwiper-landmarks Explore">
+            <div class="arrows">
+                <i class="ri-arrow-right-s-line arrow_swipe_right"></i>
+                <i class="ri-arrow-left-s-line arrow_swipe_left"></i>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <a href="">
+                            <img src="assets/img/tiny-480px.svg" class="card__image" alt="" />
+                            <h2 class="city_name">المأكولات والمشروبات</h2>
+                            <button class="custom_button">
+                                <a class="" href="#">
+                                    <span>استكشف</span>
+                                </a>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <a href="">
+                            <img src="assets/img/huge-2560px.svg" class="card__image" alt="" />
+                            <h2 class="city_name">فن وثقافه</h2>
+                            <button class="custom_button">
+                                <a class="" href="#">
+                                    <span>استكشف</span>
+                                </a>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/تسوق.svg" class="card__image" alt="" />
+                            <h2 class="city_name">التسوق</h2>
+                            <button class="custom_button">
+                                <a class="" href="#">
+                                    <span>استكشف</span>
+                                </a>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/cairo580x3601x.jpg" class="card__image" alt="" />
+                            <h2 class="city_name">أبو ظبي</h2>
+                            <button class="custom_button">
+                                <a class="" href="#">
+                                    <span>استكشف</span>
+                                </a>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/manama-cityguide-580x3602x.jpg" class="card__image" alt="" />
+                            <h2 class="city_name">مكة</h2>
+                            <button class="custom_button">
+                                <a class="" href="#">
+                                    <span>استكشف</span>
+                                </a>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================== Destinations ===========================-->
+    <section class="main_container landmarks Destinations event">
+        <p class="section_title"><span class=""></span>فعاليات قطر في <span>مايو 2022</span></p>
+        <div class="swiper mySwiper-landmarks">
+            <div class="arrows">
+                <i class="ri-arrow-right-s-line arrow_swipe_right"></i>
+                <i class="ri-arrow-left-s-line arrow_swipe_left"></i>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <a href="">
+                            <img src="assets/img/events.svg" class="card__image" alt="" />
+                            <div class="city_name">
+                                <h6 class="date">19مايو-15-مارس</h6>
+                                <h5 class="">مهرجان الدوحه للتسوق</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href="" class="card_curve">
+                        <a href="">
+                            <img src="assets/img/dubai-desktop-580x360.jpg" class="card__image" alt="" />
+                            <div class="city_name">
+                                <h6 class="date">19مايو-15-مارس</h6>
+                                <h5 class="">مونديال 2022</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/134556.svg" class="card__image" alt="" />
+                            <div class="city_name">
+                                <h6 class="date">19مايو-15-مارس</h6>
+                                <h5 class="">مهرجان الدوحه للساعات والمجهورات </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div href=" " class="card_curve">
+                        <a href="">
+                            <img src="assets/img/eventsx.svg" class="card__image" alt="" />
+                            <div class="city_name">
+                                <h6 class="date">19مايو-15-مارس</h6>
+                                <h5 class="">مهرجان الدوحه للتسوق</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================== Accordion ===========================-->
+    <section class="main_container">
+        <p class="section_title"><span class=""></span>الأسئلة الشائعة</p>
+        <div class="accordion accordion-flush Accordion" id="accordionFlushExample">
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ما أهم المعلومات الجديره معرفتها عن قطر ؟
+            </button>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">قطر دولة مسلمة. لذا يُنصح الزوار بارتداء ملابس محتشمة</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ما هي بعض التجارب التي لا يمكن للأزواج تفويتها في قطر؟
+            </button>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">قطر دولة مسلمة. لذا يُنصح الزوار بارتداء ملابس محتشمة</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                ما هي أفضل الأنشطة التي يمكن القيام بها في قطر ليلاً؟            
+            </button>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">قطر دولة مسلمة. لذا يُنصح الزوار بارتداء ملابس محتشمة</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                ما هي بعض أفضل أنشطة الأماكن الداخلية في قطر؟            
+              </button>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">قطر دولة مسلمة. لذا يُنصح الزوار بارتداء ملابس محتشمة</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                هل توفر قطر تجربة تسوق ممتعة؟              
+            </button>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">قطر دولة مسلمة. لذا يُنصح الزوار بارتداء ملابس محتشمة </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================== Featured Articles ===========================-->
+    <section class="main_container ">
+        <p class="section_title "><span class=" "></span>مقالات مميزة</p>
+        <div class="Articles ">
+            <div class="Article-side1 ">
+                <div class="Article-card ">
+                    <div class="Article-data ">
+                        <span class=" ">
+                        <img src="assets/img/skyscrapers-palm-trees-dubai-uae.jpg " alt=" ">
+                    </span>
+                        <h1 class="Article-title ">أفضل 5 شواطئ أثناء زيارتك للقطر</h1>
+                        <p class="Article-details ">في هذا الدليل إليكم مجموعة أسماء شواطئ قطر الأشهر، حيث سنسقط على أهم وأفضل 10 شواطئ في قطر والتي نرشحها بقوة للراغبين في قضاء وقت ممتع على البحر سواء كنت بمفردك أو بصحبة عائلتك أو أصدقائك.</p>
+                        <h6 class="date ">2022.05.22</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="Article-side2 ">
+                <div class="Article-card ">
+                    <div class="Article-style ">
+                        <div class="Article-data ">
+                            <h3 class="Article-title ">لتجنب أسوأ اللحظات.. ماذا تفعل إذا فاتتك رحلة الطائرة؟</h3>
+                            <a href="# " class="more-read ">
+                                <h5>إقرأ المزيد</h5><i class="ri-arrow-left-s-line "></i></a>
+                            <h6 class="date ">2022.05.22</h6>
+                        </div>
+                        <span class=" ">
+                    <img src="assets/img/dubai-desktop-580x360.jpg " alt=" ">
+                    </span>
+                    </div>
+                </div>
+                <div class="Article-card ">
+                    <div class="Article-style ">
+                        <div class="Article-data ">
+                            <h3 class="Article-title ">لتجنب أسوأ اللحظات.. ماذا تفعل إذا فاتتك رحلة الطائرة؟</h3>
+                            <a href="# " class="more-read ">
+                                <h5>إقرأ المزيد</h5><i class="ri-arrow-left-s-line "></i></a>
+                            <h6 class="date ">2022.05.22</h6>
+                        </div>
+                        <span class=" ">
+                    <img src="assets/img/abu-dhabi.jpg " alt=" ">
+                    </span>
+                    </div>
+                </div>
+                <div class="Article-card ">
+                    <div class="Article-style ">
+                        <div class="Article-data ">
+                            <h3 class="Article-title ">لتجنب أسوأ اللحظات.. ماذا تفعل إذا فاتتك رحلة الطائرة؟</h3>
+                            <a href="# " class="more-read ">
+                                <h5>إقرأ المزيد</h5><i class="ri-arrow-left-s-line "></i></a>
+                            <h6 class="date ">2022.05.22</h6>
+                        </div>
+                        <span class=" ">
+                    <img src="assets/img/manama-cityguide-580x3602x.jpg "></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================== Site footer ===========================-->
+    <footer class="footer ">
+        <div class="container ">
+            <div class="brand ">
+                <span><img src ="assets/img/logo footer.svg "></span>
+                <p>نحن دائما نجعل عملاءنا سعداء من خلال توفير أكبر عدد من الخيارات للمعالم السياحية</p>
+                <div class="icon ">
+                    <div class="contant ">
+                        <i class="fab fa-instagram "><a href="# "></a></i>
+                        <i class="fab fa-facebook "><a href="# "></a></i>
+                        <i class="fab fa-twitter "><a href="# "></a></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="large">
+                    <li class="response">
+                        <a href="#">وجهات</a>
+                    </li>
+                    <div>
+                        <li><a href="# ">الوجهة السياحية</a></li>
+                        <li><a href="# ">الفعاليات</a></li>
+                        <li><a href="# ">خطط للرحلتك</a></li>
+                        <li><a href="# ">أضف نشاطك التجاري</a></li>
+                    </div>
+                </ul>
+                <ul class="mobile">
+                    <li class="response">
+                        <a href="# " class=" accordion-item accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">خدماتنا</a>
+                        <i class="fa fa-add "></i>
+                    </li>
+                    <div id="flush-collapse1" class="accordion-body response_content accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                        <div>
+                            <li><a href="# ">الوجهة السياحية</a></li>
+                            <li><a href="# ">الفعاليات</a></li>
+                            <li><a href="# ">خطط للرحلتك</a></li>
+                            <li><a href="# ">أضف نشاطك التجاري</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="internal_destinations">
+                <ul class="large">
+                    <li class="response">
+                        <a href="# ">وجهات عربية</a>
+                    </li>
+                    <div>
+                        <li><a href="# ">الإمارات</a></li>
+                        <li><a href="# ">قطر</a></li>
+                        <li><a href="# ">السعودية</a></li>
+                        <li><a href="# ">الأردن</a></li>
+                    </div>
+                </ul>
+                <ul class="mobile">
+                    <li class="response">
+                        <a href="# " class=" accordion-item accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">وجهات عربية</a>
+                        <i class="fa fa-add "></i>
+                    </li>
+                    <div id="flush-collapse2" class="accordion-body response_content accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                        <div>
+                            <li><a href="# ">الإمارات</a></li>
+                            <li><a href="# ">قطر</a></li>
+                            <li><a href="# ">السعودية</a></li>
+                            <li><a href="# ">الأردن</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="external_destinations">
+                <ul class=" large">
+                    <li class="response">
+                        <a href="# ">وجهات أجنبية</a>
+                    </li>
+                    <div>
+                        <li><a href="# ">الولايات المتحدة</a></li>
+                        <li><a href="# ">السويد</a></li>
+                        <li><a href="# ">تركيا</a></li>
+                        <li><a href="# ">الهند</a></li>
+                    </div>
+                </ul>
+                <ul class="mobile">
+                    <li class="response">
+                        <a href="# " class="accordion-item accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">وجهات أجنبية</a>
+                        <i class="fa fa-add "></i>
+                    </li>
+                    <div id="flush-collapse3" class="accordion-body response_content accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                        <div>
+                            <li><a href="# ">الولايات المتحدة</a></li>
+                            <li><a href="# ">السويد</a></li>
+                            <li><a href="# ">تركيا</a></li>
+                            <li><a href="# ">الهند</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--=========================== Footer ===========================-->
+    <div class="rights ">
+        <div class=" ">
+            <p class=" mb-0 py-2 "> كل الحقوق محفوظة © 2022 </p>
+        </div>
+    </div>
+    <!--=========================== Our JavaScript Section Start ===========================-->
+    <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+    <script src=" assets/js/index.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+    <script src="assets/js/swiper-bundle.min.js "></script>
+</body>
+
+</html>

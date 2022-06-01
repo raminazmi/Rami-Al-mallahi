@@ -1,0 +1,136 @@
+.footer {
+    background-color: transparent;
+    width: 100%;
+    color: var(--first-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 40px 0;
+    flex-wrap: center;
+}
+
+.footer .container {
+    grid-template-columns: 39% 18% 18% 18%;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand span img {
+    padding-bottom: 20px;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer .response {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.footer li {
+    margin-bottom: 20px;
+}
+
+.footer li a {
+    font-size: 20px;
+    color: var(--background-color);
+    text-decoration: none;
+    font-family: 'Tajawal-Regular';
+}
+
+.footer .contant {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .icon {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .icon i {
+    color: var(--first-color-alt);
+    border-radius: 100px;
+    font-size: 28px;
+    cursor: pointer;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.footer .icon i:nth-of-type(2) {
+    position: relative;
+    bottom: 10px;
+    font-size: 35px;
+}
+
+.rights {
+    background: var(--first-color);
+    text-align: center;
+    color: var(--container-color);
+}
+
+.response {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.response i {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+.large {
+    display: block;
+}
+
+@media (max-width: 1400px) {
+    .footer .container {
+        grid-template-columns: 50% 30%;
+        column-gap: 80px;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer {
+        background-color: var(--container-color);
+        padding-top: 15px;
+        border-top: 4px solid var(--second-color);
+    }
+    .footer .container {
+        grid-template-columns: 90%;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+    .response i {
+        margin: 0;
+    }
+    .response i {
+        font-size: 18px;
+        color: var(--first-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile {
+        display: block;
+        padding: 0;
+    }
+    .large {
+        display: none;
+    }
+}
